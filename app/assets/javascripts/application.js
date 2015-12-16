@@ -12,5 +12,14 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap
+//= require bootstrap-sprockets
 //= require turbolinks
-//= require_tree .
+//= require pace.min
+//= require jquery.autofix_anything
+//= require jquery.mixitup.min
+//= require gmap3.min
+//= require jquery.magnific-popup
+//= require jquery.magnific-popup.min
+//= require app
+
