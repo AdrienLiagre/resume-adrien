@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   get 'contact', to: 'pages#contact'
   # get 'blog_list.html' to: :index
 
-  resources :blog_list,  only: [:index]
+  resources :blog_list,  only: :index
 
   root to: 'pages#home'
 
