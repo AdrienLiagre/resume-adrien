@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   get 'contact', to: 'pages#contact'
-  # get 'blog_list.html' to: :index
 
-  resources :blog_list,  only: :index
+  resources :blogs,  only: :index
 
   root to: 'pages#home'
 
