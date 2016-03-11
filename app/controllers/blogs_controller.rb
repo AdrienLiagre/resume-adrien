@@ -1,7 +1,7 @@
-class BlogListController < ApplicationController
+class BlogsController < ApplicationController
 
   def index
-    @blogs = Blog.all
+
   end
 
   def create
